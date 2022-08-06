@@ -12,7 +12,7 @@ import '../Model/current_weather_data.dart';
 import '../Model/five_days_data_3_hour.dart';
 
 class WeatherController extends GetxController {
-  String apiKey = 'ec4df545d2519ec6dc4830fc95cf2df9';
+  String apiKey = 'Your-Api-key';
   final String _uri = 'https://api.openweathermap.org/data/2.5';
 
   List<CurrentWeatherData> currentWeatherData = [];
